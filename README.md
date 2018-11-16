@@ -26,7 +26,7 @@ The flow of program is something like this-
   
     2d. Remove all punctuation marks like ? , ! and HTML tags
 
-  2e. Since the data spans a period of around 10 years, it has to be split based on time. This is also called time based splitting.
+    2e. Since the data spans a period of around 10 years, it has to be split based on time. This is also called time based splitting.
 
 3. Featurization-
 
