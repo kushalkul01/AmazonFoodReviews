@@ -18,11 +18,11 @@ The data is saved in the form of SQLite file which can be directly loaded using 
 
 2. Data Preprocessing-
 
-2a) From the data, we will first remove 3 star ratings as they cannot be demarcated into positive or negative. They can be considered as moderate.
-2b) The words like "the, and, this" etc do not impart any meaning to the sentence, they just add to the noise. Such words are also called 'stopwords'. For eg in the sentence "This vermicelli tastes like heaven", the only words that impart meaning are 'vermicelli', 'tastes', 'heaven'. Hence we will not consider stopwords in the data.
-2c) Use only root word for a group of words. For eg the words 'like, liked, liking' etc are quite similar and will be reduced to their root form using SnowballStemmer. 
-2d) Remove all punctuation marks like ? , ! and HTML tags
-2e) Since the data spans a period of around 10 years, it has to be split based on time. This is also called time based splitting.
+2a. From the data, we will first remove 3 star ratings as they cannot be demarcated into positive or negative. They can be considered as moderate.
+2b. The words like "the, and, this" etc do not impart any meaning to the sentence, they just add to the noise. Such words are also called 'stopwords'. For eg in the sentence "This vermicelli tastes like heaven", the only words that impart meaning are 'vermicelli', 'tastes', 'heaven'. Hence we will not consider stopwords in the data.
+2c. Use only root word for a group of words. For eg the words 'like, liked, liking' etc are quite similar and will be reduced to their root form using SnowballStemmer. 
+2d. Remove all punctuation marks like ? , ! and HTML tags
+2e. Since the data spans a period of around 10 years, it has to be split based on time. This is also called time based splitting.
 
 3. Featurization-
 
