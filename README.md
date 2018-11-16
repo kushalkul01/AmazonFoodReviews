@@ -1,0 +1,2 @@
+# AmazonFoodReviews
+A splendid feature of the companies working in the space of ecommerce is that the previous buyers can leave a review on any product. The review can be positive or negative. This polarity largely depends on the words chosen for a review. The task here was to train the model on Positive (4 and 5 stars) and Negative (1 and 2 stars) reviews of Amazon Fine Food Reviews Dataset and test whether the new review will be positive or negative.
