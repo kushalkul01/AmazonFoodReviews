@@ -33,3 +33,12 @@ The flow of program is something like this-
     For most of the time, all the featurization techniques mentioned above will be applied and studied. However, at times we will select     only feasible techniques. For eg Decision Tree would take long time to work on high dimentionality. So while working with decision       trees and its related technologies (like Random Forest), we will use only Word2Vec based models due to their low dimensionality.
 
 4. Model will be applied based on scoring and its hyperparameters would be tuned using cross validation techniques. 
+
+## Libraries Used-
+
+The project largely used the following libraries-
+
+1. Scikit Learn
+2. Numpy
+3. Pandas
+4. Gensim
